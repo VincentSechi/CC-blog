@@ -1,0 +1,21 @@
+.input-field {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.input-field input {
+  border: none;
+  outline: none;
+  padding: 10px;
+}
+
+.wysiwyg-field {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.wysiwyg-field textarea {
+  border: none;
+  outline: none;
+  padding: 10px;
+}

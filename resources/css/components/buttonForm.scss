@@ -1,0 +1,19 @@
+@import "../variables.scss";
+
+.button-form{
+    background-color: $blue;
+    border: 1px solid $blue;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    padding:10px;
+    transition: all .3s;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+
+    &:hover{
+        background-color: white;
+        color: $blue;
+    }
+}

@@ -1,0 +1,97 @@
+@import "../variables.scss";
+
+.input-block {
+    display: flex;
+    gap: 50px;
+
+    .input-fields {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+
+        .input-field,
+        .select-field {
+            width: 100%;
+        }
+    }
+
+    .select-photo {
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        padding:20px;
+        background-color: rgba(255,255,255, .8);
+        border-radius: 10px;
+
+
+        label {
+            font-size: 24px;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-family: 'Public Sans';
+        }
+
+        .input-file {
+            width: 100%;
+            position: absolute;
+            z-index: 1;
+        }
+
+        .download-icon {
+            position: absolute;
+            bottom: 0;
+            top:20px;
+            right: 0;
+            left: 0;
+            display: flex;
+
+            max-width: 150px;
+            margin: auto;
+        }
+    }
+}
+
+.input-field {
+    input {
+        border: none;
+        outline: none;
+        padding: 10px;
+        font-family: 'Public Sans';
+        border-radius: 5px;
+    }
+}
+
+.wysiwyg-field {
+    textarea {
+        border: none;
+        outline: none;
+        padding: 10px;
+        font-family: 'Public Sans';
+        resize: none;
+        border-radius: 5px;
+    }
+}
+
+.select-field {
+    select {
+        padding: 10px;
+    }
+}
+
+.input-field,
+.select-field,
+.wysiwyg-field {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    label {
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-family: 'Public Sans';
+    }
+}
