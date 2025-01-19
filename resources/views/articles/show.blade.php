@@ -50,7 +50,6 @@ $date = strftime('%A %d %B %Y', $dateTime->getTimestamp());
                     </p>
                 </div>
             </div>
-
         </section>
         <section class="comments-container">
             <div class="all-comments">

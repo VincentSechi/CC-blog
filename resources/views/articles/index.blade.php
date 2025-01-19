@@ -61,7 +61,6 @@
             @endforeach
         </section>
         <div class="pagination-container">
-        {{ $articles->links() }}
         </div>
     </section>
 @endsection
